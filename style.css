@@ -11,7 +11,7 @@ html {
 
 body {
     width: 100%;
-    min-height: 100dvh;
+    /* min-height: 100dvh; */
     background: #fff;
 }
 
@@ -566,4 +566,24 @@ footer .footer-container .box input {
 
 footer .footer-container .box a:hover {
     text-decoration: underline;
+}
+
+
+
+
+
+
+@media(max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    header {
+        padding: 2rem;
+    }
+    section {
+        padding: 2rem;
+    }
 }
