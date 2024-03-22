@@ -542,6 +542,10 @@ footer .footer-container .box .media {
     border-radius: 60%;
 }
 
+footer .footer-container .box .media:hover i {
+    color: black;
+}
+
 footer .footer-container .box a {
     display: block;
     padding: 7px 0;
@@ -561,6 +565,5 @@ footer .footer-container .box input {
 }
 
 footer .footer-container .box a:hover {
-    color: #D9DBE1;
     text-decoration: underline;
 }
